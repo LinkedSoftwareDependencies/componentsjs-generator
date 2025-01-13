@@ -1819,6 +1819,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rdfjs/types@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@rdfjs/types@npm:2.0.0"
+  dependencies:
+    "@types/node": "npm:*"
+  checksum: de53d967f9a29fd4ad729c426ea71db9bf0f51cfca98f47de504f288ccd7f9dd6e70bc6df76530b273cf267e3661a5c5163019c011c28af90d3851e5a1ace3fa
+  languageName: node
+  linkType: hard
+
 "@rubensworks/eslint-config@npm:^3.0.0":
   version: 3.0.0
   resolution: "@rubensworks/eslint-config@npm:3.0.0"
@@ -3405,7 +3414,7 @@ __metadata:
     lru-cache: "npm:^6.0.0"
     manual-git-changelog: "npm:^1.0.1"
     minimist: "npm:^1.2.5"
-    rdf-object: "npm:^2.0.0"
+    rdf-object: "npm:^3.0.0"
     rimraf: "npm:latest"
     semver: "npm:^7.3.2"
     ts-jest: "npm:^29.1.2"
@@ -8184,6 +8193,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"rdf-data-factory@npm:^2.0.0, rdf-data-factory@npm:^2.0.1":
+  version: 2.0.2
+  resolution: "rdf-data-factory@npm:2.0.2"
+  dependencies:
+    "@rdfjs/types": "npm:^2.0.0"
+  checksum: 5c72ebc22f4910fd35bf3efb1e1def10785aca6f8d22dd8cee34c9ffb764225698ebdfeaf09a2afba6c25e17733940ab52cefd5c751cc2720b29b5ee56ef32ee
+  languageName: node
+  linkType: hard
+
 "rdf-isomorphic@npm:^1.3.0":
   version: 1.3.1
   resolution: "rdf-isomorphic@npm:1.3.1"
@@ -8225,6 +8243,18 @@ __metadata:
     rdf-string: "npm:^1.6.0"
     streamify-array: "npm:^1.0.1"
   checksum: adda0eb7e8555c4f7fe00cbcbaad9e209d486567c6ac325ad8612ca31de26e782eba2ded610ef0f66aafc2986e5ac4ec6bf015c7fd9e25e883efdce60c3c1b11
+  languageName: node
+  linkType: hard
+
+"rdf-object@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "rdf-object@npm:3.0.0"
+  dependencies:
+    jsonld-context-parser: "npm:^3.0.0"
+    rdf-data-factory: "npm:^2.0.1"
+    rdf-string: "npm:^2.0.0"
+    streamify-array: "npm:^1.0.1"
+  checksum: 3e348d01b1dfebf79b7b8bdb3dfa43d9be1c831e7bef2191caa5e43c30ed85c5f82254e28e7692bb1542fe44c5c60c1897c0950518bb14d5695dd289001b7458
   languageName: node
   linkType: hard
 
@@ -8278,6 +8308,15 @@ __metadata:
     "@rdfjs/types": "npm:*"
     rdf-data-factory: "npm:^1.1.0"
   checksum: d7fca91d659f1631708670efefe4d8243b55f18a74adb384b385f7562d3c1a7c7f0a64da09c094e08aced8dc9cfd870eadbec4fe97030d78a90ec69187f6a53c
+  languageName: node
+  linkType: hard
+
+"rdf-string@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "rdf-string@npm:2.0.1"
+  dependencies:
+    rdf-data-factory: "npm:^2.0.0"
+  checksum: e3223a3d0baa0486b9c6d2ed91e8d8a9d42eca05faf5727f2798860890b17bde698a6c13faee8b1482c06b88c216c5d60aa579e3256af236dbf95224cb24c69d
   languageName: node
   linkType: hard
 
